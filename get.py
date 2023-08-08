@@ -12,6 +12,7 @@ def get():
             print("PLEASE ENTER VALID NUMBERS")
             continue      
         if op in operators:
+            return(num1, num2, op)
             break
         else: 
             print("Invalid operator, please submit a valid one")
