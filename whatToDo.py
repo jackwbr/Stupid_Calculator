@@ -12,5 +12,6 @@ def whatToDo(num1, num2, op):
     num1, num2, = num1, num2
     return wtd
 
-num1, num2, op = get()
-whatToDo(num1, num2, op)
+if __name__ == "__main__":
+    num1, num2, op = get()
+    whatToDo(num1, num2, op)
