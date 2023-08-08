@@ -1,5 +1,5 @@
-operators = ["+", "-", "*", "/"]
 def get():
+    operators = ["+", "-", "*", "/"]
     while True:
         num1 = input("Please provide a number: ")
         num2 = input("Please provide another number: ")
@@ -16,4 +16,6 @@ def get():
         else: 
             print("Invalid operator, please submit a valid one")
             continue
-get()
+
+if __name__ == "__main__":
+    get()
