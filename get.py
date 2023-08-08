@@ -13,9 +13,8 @@ def get():
             continue      
         if op in operators:
             return(num1, num2, op)
-            break
         else: 
-            print("Invalid operator, please submit a valid one")
+            print("PLEASE ENTER A VALID OPERATOR")
             continue
 
 if __name__ == "__main__":
