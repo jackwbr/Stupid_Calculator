@@ -12,11 +12,11 @@ def stupid_math():
             print("I'm on break. Come back later.")
             exit()
         if randNum == "2":
-            addnum = num1 * num2
-            print(+addnum "This is ") 
+            addnum5 = num1 * num2
+            print("Is " + addnum5 + "what you were looking for? I don't really care.") 
             exit()
         if randNum == "3":
-            print("")
+            print(num1 + num2)
 
 
 stupid_math()
