@@ -8,6 +8,7 @@ def get():
             int(num2)
             break
         except ValueError:
+            print("PLEASE ENTER VALID NUMBERS")
             continue
 
 get()
