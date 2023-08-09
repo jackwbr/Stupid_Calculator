@@ -5,6 +5,8 @@ def whatToDo(num1, num2, op):
         wtd = "add"
     if op == "-":
         wtd = "subtract"
+    if op == "x":
+        wtd = "multiply"
     if op == "*":
         wtd = "multiply"
     if op == "/":
