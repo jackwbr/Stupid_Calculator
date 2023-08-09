@@ -33,6 +33,7 @@ def stupid_math():
             numA = float(num1)
             numB = float(num2)
             num = numA - numB
+            num = float(num)
             print(+ num + "I guess. I don't really know. ")
 
     if wtd == "multiply":
