@@ -7,17 +7,17 @@ wtd = whatToDo(num1, num2, op)
 
 def stupid_math():
     if wtd == "add":
-        randNum = randint(1, 3)
-        if randNum == 1:
+        randNumAdd = randint(1, 3)
+        if randNumAdd == 1:
             print("I'm on break. Come back later.")
             exit()
-        if randNum == 2:
+        if randNumAdd == 2:
             numA = float(num1)
             numB = float(num2)
-            addnum5 = numA * numB
-            print("Is " + str(addnum5) + " what you were looking for? I don't really care.") 
+            addnumlol = numA * numB
+            print("Is " + str(addnumlol) + " what you were looking for? I don't really care.") 
             exit()
-        if randNum == 3:
+        if randNumAdd == 3:
             print(num1 + num2) 
     
     if wtd == "subtract":
