@@ -1,5 +1,5 @@
 def get():
-    operators = ["+", "-", "*", "/"]
+    operators = ["+", "-", "*", "x", "/"]
     while True:
         num1 = input("Please provide a number: ")
         num2 = input("Please provide another number: ")
