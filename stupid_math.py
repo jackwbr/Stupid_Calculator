@@ -47,9 +47,9 @@ def stupid_math():
     if wtd == "divide":
         randNum = randint(1,4)
         if randNum == 1:
-            print("Dividing is sad, why not try multiplication")
+            print("Dividing is sad, why not try multiplication?")
         if randNum == 2:
-            print("Okay, okay, I'll be honest. I forgot how to do this")
+            print("Okay, okay, I'll be honest. I forgot how to do this.")
         if randNum == 3:
             str(num1)
             print(num1 + " I guess")
