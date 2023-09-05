@@ -28,7 +28,7 @@ def stupid_math():
             numA = float(num1)
             numB = float(num2)
             num = numA + numB
-            print("I've got " + str(num) + ". That's all I can give ya,")
+            print("I've got " + str(num) + ". That's all I can give ya.")
         if randNum == 3:
             numA = float(num1)
             numB = float(num2)
