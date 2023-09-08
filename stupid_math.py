@@ -10,7 +10,7 @@ def stupid_math():
         randNumAdd = randint(1, 3)
         if randNumAdd == 1:
             print("I'm on break. Come back later.")
-            exit()
+            exit()            
         if randNumAdd == 2:
             numA = float(num1)
             numB = float(num2)
